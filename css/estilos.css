@@ -1,0 +1,15 @@
+/* Autores: Mariana Gómez Munist - Nro de estudiante: 207978
+            Lucero Scigliano - Nro de estudiante: 292302 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 2;
+    margin: 0 auto;
+    padding: 0 20px;
+}
