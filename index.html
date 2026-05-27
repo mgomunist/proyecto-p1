@@ -15,11 +15,11 @@
       <h2>Manejo de Influencers</h2>
       <article>
         <h3>Alta de Influencer</h3>
-        <button>Agregar influencer</button>
+        <button>Agregar Influencer</button>
       </article>
       <article>
         <h3>Datos del influencer a agregar</h3>
-        <h4>Influencer</h4>
+        <h3>Influencer</h3>
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" />
         <label for="mail">Mail</label>
@@ -31,6 +31,94 @@
       </article>
       <article>
         <h3>Tabla de influencers</h3>
+        <table>
+          <thead>
+            <tr>
+              <th><button>Nombre</button></th>
+              <th>Mail</th>
+              <th>% Comisión</th>
+              <th>Total a cobrar</th>
+              <th>Etiquetas</th>
+              <th>Detalle</th>
+            </tr>
+          </thead>
+          <tbody id="tabla-influencers">
+            <tr>
+              <td>Ana Pérez</td>
+              <td>ana.perez@email.com</td>
+              <td>20%</td>
+              <td>$600</td>
+              <td>🔥🟢</td>
+              <td><button>Ventas</button></td>
+            </tr>
+            <tr>
+              <td>Juan Gómez</td>
+              <td>juan.gomez@email.com</td>
+              <td>10%</td>
+              <td>$30</td>
+              <td> </td>
+              <td><button>Ventas</button></td>
+            </tr>
+            <tr>
+              <td>Lucía Martínez</td>
+              <td>lucia.martinez@email.com</td>
+              <td>95%</td>
+              <td>$0</td>
+              <td>🧊</td>
+              <td><button>Ventas</button></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Información: 🔥 Top comisión (cobra más $) 🧊 Cero ventas 🟢 Venta más cara (mayor monto en una sola venta)</p>
+      </article>
+    </section>
+    <section>
+      <h2>Manejo de Artículos</h2>
+      <article>
+        <h3>Alta de artículo</h3>
+        <button>Agregar Artículo</button>
+      </article>
+      <article>
+        <h3>Datos del artículo a agregar</h3> 
+        <h3>Artículo</h3> 
+        <label for="código">Código</label>
+        <input type="text" id="código" />
+        <label for="descripcion">Descripción</label>
+        <input type="text" id="descripcion" />
+        <label for="precio">Precio</label>
+        <input type="text" id="precio" />
+        <button>Cancelar</button>
+        <button>Agregar</button>
+      </article>
+      <article> 
+        <h3>Tabla de artículos</h3>
+        <table>
+          <thead>
+            <tr>
+              <th><button>Código</button></th>
+              <th>Descripción</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tbody id="tabla-artículos">
+            <tr>
+              <td>A001 ⭐</td>
+              <td>Remera algodón básica</td>
+              <td>$1000</td>
+            </tr>
+            <tr>
+              <td>A002</td>
+              <td>Zapatillas deportivas</td>
+              <td>$300</td>
+            </tr>
+            <tr>
+              <td>A003</td>
+              <td>Gorra ajustable</td>
+              <td>$500</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Información: ⭐ Artículo más vendido (mayor cantidad de unidades vendidas)</p>
       </article>
     </section>
   </body>
