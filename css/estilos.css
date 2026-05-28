@@ -29,3 +29,34 @@ article {
     padding: 12px 16px;
     margin-bottom: 10px;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+thead tr {
+    background-color: #eeeeee;
+}
+
+thead th {
+    padding: 7px 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #141414;
+    border-bottom: 2px solid #bbb;
+    border: 1px solid #050505;
+    white-space: nowrap;
+}
+
+tbody tr {
+    border-bottom: 1px solid #0a0a0a;
+}
+
+tbody td {
+    padding: 6px 10px;
+    border: 1px solid #0e0d0d;
+    vertical-align: middle;
+}
+
